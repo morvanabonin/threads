@@ -8,12 +8,14 @@ outra thread, os números ímpares (até 100).
 
 """
 
+
 def impar(n):
     """Função de aprendizado de Threads em Python"""
 
     for x in range(0, n):
         if x % 2:
             print("Eu sou um número impar", x)
+
 
 def par(n):
     for x in range(0, n):
